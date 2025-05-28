@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '../../.env' });
+require('dotenv').config();
 const { testConnection } = require('../config/database');
 
 // Run the test connection function
